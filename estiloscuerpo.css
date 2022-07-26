@@ -1,0 +1,27 @@
+.cuerpo{
+    display:grid;
+    background-color: bisque;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    grid-template-columns: 1fr;
+}
+
+.titulo-cabecera{
+    background-color: rgba(255, 127, 80, 0.692);
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 580px;
+    border-radius: 30px;
+}
+
+.cabeza-total{
+    background-image: url(fondo-legumbres.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.derechos-reservados{
+    text-align: center;
+    font-size: 12px;
+}

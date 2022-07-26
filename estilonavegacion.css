@@ -1,0 +1,46 @@
+header{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+}
+
+.imagen-logo-cabeza{
+    border-radius: 30px;
+}
+
+.menu-navegacion{
+    background-color: rgba(255, 166, 0, 0.774);
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 50px;
+}
+
+.navegacion{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cabezanav .navegacion .nave-navegacion{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.clase-enlase-uno, .clase-enlase-dos, .clase-enlase-tres{
+    text-decoration: none
+}
+
+.nave-navegacion:hover{
+    background-color: black;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.clase-enlase-uno:hover, .clase-enlase-dos:hover, .clase-enlase-tres:hover{
+    color: white;
+}

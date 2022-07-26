@@ -1,0 +1,64 @@
+.presentacion-veggie{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
+
+.pres-img-veggie{
+    grid-row: 1/3;
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+.p-press-veggie{
+    margin-bottom: 70px;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.hambur-veggie{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: right;
+}
+
+.veggie-hambur-dos{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 350px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.veggie-hambur-titulo{
+    margin-top: 50px;
+    margin-left: 777px;
+}
+
+.veggie-hambur-p{
+    background-color: coral;
+    margin-left: 400px;
+    padding: 10px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.veggie-carrusel{
+    width: 600px;
+    margin-left: 525px;
+    margin-top: 10px;
+}
+
+.boton-comprar{
+    text-align: center;
+    margin-top: 10px;
+}

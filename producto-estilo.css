@@ -1,0 +1,43 @@
+.producto-main-estilo{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+}
+
+.tabla-producto{
+    text-align: center;
+}
+
+.imagen-soja{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagen-acelga{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagen-calabaza{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagen-garbanzos{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagen-lenteja{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagen-nanahoria{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.video-legumbre{
+    text-align: center;
+}

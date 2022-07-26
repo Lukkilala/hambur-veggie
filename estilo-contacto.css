@@ -1,0 +1,44 @@
+.estilo-contactos-main{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+}
+
+.estilo-grupo-contacto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.estilo-wsp{
+    margin: 0 auto;
+    background-color: aquamarine;
+    z-index: 999;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.estilo-ig{
+    margin: 0 auto;
+    background-color: aquamarine;
+    z-index: 999;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.formulario-estilo-contacto{
+    margin: 0 auto;
+    border: 3px red solid;
+    border-style: double;
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+}
