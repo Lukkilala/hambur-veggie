@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+.titulo-pres-veggie{
+    margin: 0 auto;
+    margin-left: 150px;
+    text-align: start;
+}
+
 .pres-img-veggie{
     grid-row: 1/3;
     width: 300px;
@@ -35,13 +41,14 @@
     grid-row: 1/3;
     width: 350px;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-right: 150px;
+    margin-top: 50px;
+    align-items: flex-start;
+    margin-right: 200px;
 }
 
 .veggie-hambur-titulo{
     margin-top: 50px;
-    margin-left: 777px;
+    margin-left: 600px;
 }
 
 .veggie-hambur-p{
@@ -54,8 +61,8 @@
 
 .veggie-carrusel{
     width: 600px;
-    margin-left: 525px;
-    margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .boton-comprar{
